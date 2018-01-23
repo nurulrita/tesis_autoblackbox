@@ -30,8 +30,8 @@ class BuatPermohonan(unittest.TestCase):
 	def test_buat_permohonan(self):
 		driver = login(self.driver) 
 		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
-		driver.find_element_by_xpath("//button[@onclick='divFunction({\"MO_TELP\":\"(0717)-424700; 421774\",\"MO_LATITUDE\":\"-2.768507\",\"MO_CODE\":null,\"MO_NAME\":\"Kantor Imigrasi Tanjung Pandan\",\"MP_ID\":3,\"MO_LONGITUDE\":\"107.661896\",\"MO_ID\":12,\"PROVINCE_NAME\":\"Bangka Belitung Islands\",\"IS_ACTIVE\":true,\"MO_CLASS\":\"Kantor Imigrasi Kelas II\",\"MO_ADDRESS\":\"JL. Jendral Sudirman Km. 6, 5, 33413, Pangkal Lalang, Tj. Pandan, Kabupaten Belitung, Kepulauan Bangka Belitung 33413\"})']").click()
-		# driver.switch_to_window("smart-form")
+		driver.find_element_by_xpath("//button[@onclick='divFunction({\"MO_TELP\":\"(0564)-31180\",\"MO_LATITUDE\":\"0.9228117000000001\",\"MO_CODE\":null,\"MO_NAME\":\"Kantor Imigrasi Entikong\",\"MP_ID\":13,\"MO_LONGITUDE\":\"110.291748\",\"MO_ID\":55,\"PROVINCE_NAME\":\"West Kalimantan\",\"IS_ACTIVE\":true,\"MO_CLASS\":\"Kantor Imigrasi Kelas II\", \"MO_ADDRESS\":\"JL. Raya Entikong, Nekan, Entikong, Kabupaten Sanggau, Kalimantan Barat 78557\"})']").click()
+	
 
 
 	def is_element_present(self, how, what):

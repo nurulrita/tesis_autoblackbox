@@ -16,11 +16,11 @@ class LoginFirefox(unittest.TestCase):
         self.verificationErrors = []
         self.accept_next_alert = True
 
-    # def test_login_empty(self):
-    # 	driver = self.driver
-    # 	driver.get(self.base_url + "/Authentication.jsp")
-    # 	driver.find_element_by_id("btn-login").click()
-    # 	assert "Masukkan Nama Akun Anda" and "Masukkan Password Anda" in driver.page_source     
+    def test_login_empty(self):
+    	driver = self.driver
+    	driver.get(self.base_url + "/Authentication.jsp")
+    	driver.find_element_by_id("btn-login").click()
+    	assert "Masukkan Nama Akun Anda" and "Masukkan Password Anda" in driver.page_source     
 
     # def test_login_akunWrong(self):
     # 	driver = self.driver
@@ -46,17 +46,17 @@ class LoginFirefox(unittest.TestCase):
     #     alert = driver.switch_to_alert()
     #     alert.accept()         
 
-    def test_login_true(self):
-    	driver = self.driver
-        driver.get(self.base_url + "/Authentication.jsp")
-        username = driver.find_element_by_id("Username")
-        password = driver.find_element_by_id("Password")
-        submit   = driver.find_element_by_id("btn-login")
-        username.send_keys("lcfr")
-        password.send_keys("1234567890")
+    # def test_login_true(self):
+    # 	driver = self.driver
+    #     driver.get(self.base_url + "/Authentication.jsp")
+    #     username = driver.find_element_by_id("Username")
+    #     password = driver.find_element_by_id("Password")
+    #     submit   = driver.find_element_by_id("btn-login")
+    #     username.send_keys("lcfr")
+    #     password.send_keys("1234567890")
 
-        submit.click()
-        driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
+    #     submit.click()
+    #     driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
 
     def is_element_present(self, how, what):
         try: 

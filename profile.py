@@ -46,19 +46,19 @@ class ProfileFireFox(unittest.TestCase):
 	# 	alert.accept()
 	# 	driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/User/Profile.jsp")
 
-	def test_profile_UsernameChange(self):
-		driver = login(self.driver) 
-		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
+	# def test_profile_UsernameChange(self):
+	# 	driver = login(self.driver) 
+	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
 
-		driver.find_element_by_css_selector("a[title=\"Profile\"]").click()
-		driver.find_element_by_name("Username").clear()
-		driver.find_element_by_name("Username").send_keys("prism")
-		driver.find_element_by_name('button-save').click()
-		driver.execute_script("window.alert('Anda yakin ingin merubah data profil anda ?');")
-		alert = driver.switch_to_alert()
-		alert.accept()
-		driver.find_element_by_id('bot2-Msg1').click()
-		driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/User/Profile.jsp")
+	# 	driver.find_element_by_css_selector("a[title=\"Profile\"]").click()
+	# 	driver.find_element_by_name("Username").clear()
+	# 	driver.find_element_by_name("Username").send_keys("prism")
+	# 	driver.find_element_by_name('button-save').click()
+	# 	driver.execute_script("window.alert('Anda yakin ingin merubah data profil anda ?');")
+	# 	alert = driver.switch_to_alert()
+	# 	alert.accept()
+	# 	driver.find_element_by_id('bot2-Msg1').click()
+	# 	driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/User/Profile.jsp")
 
 	# def test_profile_NIKkomChange(self):
 	# 	driver = login(self.driver)
@@ -72,7 +72,53 @@ class ProfileFireFox(unittest.TestCase):
 	# 	alert = driver.switch_to_alert()
 	# 	alert.accept()
 	# 	driver.find_element_by_id('bot2-Msg1').click()
+	# 	assert "NIK Tidak Valid" in driver.page_source
 	# 	driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/User/Profile.jsp")
+
+	# def test_profile_NIKkurang16(self):
+	# 	driver = login(self.driver)
+	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
+
+	# 	driver.find_element_by_css_selector("a[title=\"Profile\"]").click()
+	# 	driver.find_element_by_name("Nik").clear()
+	# 	driver.find_element_by_name("Nik").send_keys("327606091")
+	# 	driver.find_element_by_name('button-save').click()
+	# 	driver.execute_script("window.alert('Anda yakin ingin merubah data profil anda ?');")
+	# 	alert = driver.switch_to_alert()
+	# 	alert.accept()
+	# 	driver.find_element_by_id('bot2-Msg1').click()
+	# 	assert "NIK Harus 16 Digit" in driver.page_source
+	# 	driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/User/Profile.jsp")
+
+	# def test_profile_NIKlebih16(self):
+	# 	driver = login(self.driver)
+	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
+
+	# 	driver.find_element_by_css_selector("a[title=\"Profile\"]").click()
+	# 	driver.find_element_by_name("Nik").clear()
+	# 	driver.find_element_by_name("Nik").send_keys("3276060912900010908")
+	# 	driver.find_element_by_name('button-save').click()
+	# 	driver.execute_script("window.alert('Anda yakin ingin merubah data profil anda ?');")
+	# 	alert = driver.switch_to_alert()
+	# 	alert.accept()
+	# 	driver.find_element_by_id('bot2-Msg1').click()
+	# 	assert "NIK Harus 16 Digit" in driver.page_source
+	# 	driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/User/Profile.jsp")
+
+	def test_profile_TeleponKombinasi(self):
+		driver = login(self.driver)
+		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
+
+		driver.find_element_by_css_selector("a[title=\"Profile\"]").click()
+		driver.find_element_by_name("Telephone").clear()
+		driver.find_element_by_name("Telephone").send_keys("08123451bcde")
+		driver.find_element_by_name('button-save').click()
+		driver.execute_script("window.alert('Anda yakin ingin merubah data profil anda ?');")
+		alert = driver.switch_to_alert()
+		alert.accept()
+		driver.find_element_by_id('bot2-Msg1').click()
+		assert "Telephone tidak valid" in driver.page_source
+		driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/User/Profile.jsp")
 
 
 	def is_element_present(self, how, what):
