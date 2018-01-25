@@ -4,6 +4,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 import unittest, time, re
 
 def login(driver):
@@ -36,9 +39,9 @@ class ButtonFireFox(unittest.TestCase):
 		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
 		driver.find_element_by_id("btn-logout").click()
 
-		driver.execute_script("window.alert('You can improve your security further after logging out by closing this opened browser');")
-		alert = driver.switch_to_alert()
-		alert.accept()
+		wait = WebDriverWait(driver, 30)
+		element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		
+		assert "You can improve your security further after logging out by closing this opened browser" in driver.page_source
 		# driver.find_element_by_id("bot1-Msg1").click()
 		driver.find_element_by_id("bot2-Msg1").click()
 		driver.get("https://antrian.imigrasi.go.id/Authentication.jsp")

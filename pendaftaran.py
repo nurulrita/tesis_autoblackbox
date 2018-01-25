@@ -4,6 +4,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 import unittest, time, re
 
 def pendaftaran(driver):
@@ -102,19 +105,23 @@ class PendaftaranFirefox(unittest.TestCase):
 	# 	driver.find_element_by_name("Email").send_keys("bjvs@yahoo.com")
 	# 	driver.find_element_by_name("Alamat").send_keys("Jl. Mawar")
 	# 	driver.find_element_by_id("register-btn_save").click()
-	# 	assert "password minimal 6 digit " in driver.page_source
+	# 	wait = WebDriverWait(driver, 15)
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'register-loading_save')))
+	# 	assert "Password Minimal 6 Digit " in driver.page_source
 
 	# def test_PendaftaranNIKKurang16(self):
 	# 	driver = pendaftaran(self.driver)
 
-	# 	driver.find_element_by_name("Username").send_keys("mkng")
+	# 	driver.find_element_by_name("Username").send_keys("abcd_")
 	# 	driver.find_element_by_name("Password").send_keys("zxcvbnm")
 	# 	driver.find_element_by_name("NIK").send_keys("32750508089")
 	# 	driver.find_element_by_name("Telephone").send_keys("08128909876")
 	# 	driver.find_element_by_name("Email").send_keys("lkmkl@yahoo.com")
 	# 	driver.find_element_by_name("Alamat").send_keys("Jl. Mawar")
 	# 	driver.find_element_by_id("register-btn_save").click()
-	# 	assert "Error in executeUpdate, NIK user tidak valid. " in driver.page_source
+	# 	wait = WebDriverWait(driver, 15)
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'register-loading_save')))
+	# 	assert "Error in executeUpdate, NIK user tidak valid." in driver.page_source
 
 	# def test_PendaftaranNIKLebih16(self):
 	# 	driver = pendaftaran(self.driver)
@@ -126,29 +133,47 @@ class PendaftaranFirefox(unittest.TestCase):
 	# 	driver.find_element_by_name("Email").send_keys("lkmkl@yahoo.com")
 	# 	driver.find_element_by_name("Alamat").send_keys("Jl. Mawar")
 	# 	driver.find_element_by_id("register-btn_save").click()
-	# 	assert "Error in executeUpdate, NIK user tidak valid. " in driver.page_source
+	# 	wait = WebDriverWait(driver, 15)
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'register-loading_save')))
+	# 	assert "Error in executeUpdate, NIK user tidak valid." in driver.page_source
 
-	def test_PendaftaranTeleponUsed(self):
+	# def test_PendaftaranTeleponUsed(self):
+	# 	driver = pendaftaran(self.driver)
+
+	# 	driver.find_element_by_name("Username").send_keys("mkng")
+	# 	driver.find_element_by_name("Password").send_keys("zxcvbnm")
+	# 	driver.find_element_by_name("NIK").send_keys("3275050808910002")
+	# 	driver.find_element_by_name("Telephone").send_keys("081234567890")
+	# 	driver.find_element_by_name("Email").send_keys("lkmkl@yahoo.com")
+	# 	driver.find_element_by_name("Alamat").send_keys("Jl. Mawar")
+	# 	driver.find_element_by_id("register-btn_save").click()
+	# 	wait = WebDriverWait(driver, 30)
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))
+	# 	assert "Nomer Telephone Telah Digunakan" in driver.page_source
+
+	def test_PendaftaranEmailUsed(self):
 		driver = pendaftaran(self.driver)
 
 		driver.find_element_by_name("Username").send_keys("mkng")
 		driver.find_element_by_name("Password").send_keys("zxcvbnm")
 		driver.find_element_by_name("NIK").send_keys("3275050808910002")
 		driver.find_element_by_name("Telephone").send_keys("081234567890")
-		driver.find_element_by_name("Email").send_keys("lkmkl@yahoo.com")
+		driver.find_element_by_name("Email").send_keys("qwerty@gmail.com")
 		driver.find_element_by_name("Alamat").send_keys("Jl. Mawar")
 		driver.find_element_by_id("register-btn_save").click()
-		assert "Nomer Telephone Telah Digunakan " in driver.page_source
+		wait = WebDriverWait(driver, 15)
+		element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))
+		assert "Email Telah digunakan" in driver.page_source
 
 	# def test_PendaftaranBerhasil(self):
 	# 	driver = pendaftaran(self.driver)
 
-	# 	driver.find_element_by_name("Username").send_keys("mtomu")
+	# 	driver.find_element_by_name("Username").send_keys("dlsdf")
 	# 	driver.find_element_by_name("Password").send_keys("asdfghijkl")
-	# 	driver.find_element_by_name("NIK").send_keys("3276064808880001")
-	# 	driver.find_element_by_name("Telephone").send_keys("082345671092")
-	# 	driver.find_element_by_name("Email").send_keys("mtomu@yahoo.com")
-	# 	driver.find_element_by_name("Alamat").send_keys("Jl. Markisa")
+	# 	driver.find_element_by_name("NIK").send_keys("3276064808890001")
+	# 	driver.find_element_by_name("Telephone").send_keys("082345671091")
+	# 	driver.find_element_by_name("Email").send_keys("mtomux@yahoo.com")
+	# 	driver.find_element_by_name("Alamat").send_keys("Jl. Jeruk")
 	# 	driver.find_element_by_id("register-btn_save").click()
 	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
 

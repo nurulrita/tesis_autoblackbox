@@ -42,7 +42,7 @@ class Syarat_ProsedurFireFox(unittest.TestCase):
 	# 	driver.find_element_by_link_text("Persyaratan").click()
 	# 	assert "Persyaratan" in driver.page_source
 
-	def test_syaratProsedur_Persyaratan(self):
+	def test_syaratProsedur_Panduan(self):
 		driver = login(self.driver) 
 		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Terms/syarat.jsp")
 

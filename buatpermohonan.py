@@ -5,6 +5,8 @@ from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 import os, re, unittest, time
 
@@ -30,9 +32,9 @@ class BuatPermohonan(unittest.TestCase):
 	def test_buat_permohonan(self):
 		driver = login(self.driver) 
 		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
-		driver.find_element_by_xpath("//button[@onclick='divFunction({\"MO_TELP\":\"(0564)-31180\",\"MO_LATITUDE\":\"0.9228117000000001\",\"MO_CODE\":null,\"MO_NAME\":\"Kantor Imigrasi Entikong\",\"MP_ID\":13,\"MO_LONGITUDE\":\"110.291748\",\"MO_ID\":55,\"PROVINCE_NAME\":\"West Kalimantan\",\"IS_ACTIVE\":true,\"MO_CLASS\":\"Kantor Imigrasi Kelas II\", \"MO_ADDRESS\":\"JL. Raya Entikong, Nekan, Entikong, Kabupaten Sanggau, Kalimantan Barat 78557\"})']").click()
-	
-
+		wait = WebDriverWait(driver, 30)
+		element = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'btn-primary')))
+		driver.find_element_by_class_name ("btn-primary")
 
 	def is_element_present(self, how, what):
 		try: 
