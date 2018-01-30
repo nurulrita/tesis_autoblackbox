@@ -32,9 +32,20 @@ class BuatPermohonan(unittest.TestCase):
 	def test_buat_permohonan(self):
 		driver = login(self.driver) 
 		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
-		wait = WebDriverWait(driver, 30)
-		element = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'btn-primary')))
-		driver.find_element_by_class_name ("btn-primary")
+		element = WebDriverWait(driver, 30).until(
+			EC.presence_of_element_located((By.XPATH, "//*[@id='list-kanim']/tr[10]/td[3]/button")))
+		
+
+		# driver.find_element_by_xpath("//*[@id="list-kanim"]/tr[10]/td[3]/button").click()
+		# wait = WebDriverWait(driver, 15)
+		# element = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'smart-form')))
+
+	# def test_buat_permohonan_formKosong(self):
+	# 	driver = login(self.driver) 
+	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
+
+	# 	element = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, "//*[@id='list-kanim']/tr[10]/td[3]/button")))
+	# 	element.click()
 
 	def is_element_present(self, how, what):
 		try: 
