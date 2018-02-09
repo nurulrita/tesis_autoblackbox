@@ -29,22 +29,22 @@ class ButtonFireFox(unittest.TestCase):
 		self.driver.set_window_size(1920, 1080)
 		self.driver.maximize_window()
 
-	# def test_buttonFullscreen(self):
-	# 	driver = login(self.driver)
-	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
-	# 	driver.find_element_by_css_selector("a[title=\"Full Screen\"]").click()
-
-	def test_buttonLogout(self):
+	def test_buttonFullscreen(self):
 		driver = login(self.driver)
 		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
-		driver.find_element_by_id("btn-logout").click()
+		driver.find_element_by_css_selector("#fullscreen > span > a > i").click()
 
-		wait = WebDriverWait(driver, 30)
-		element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		
-		assert "You can improve your security further after logging out by closing this opened browser" in driver.page_source
-		# driver.find_element_by_id("bot1-Msg1").click()
-		driver.find_element_by_id("bot2-Msg1").click()
-		driver.get("https://antrian.imigrasi.go.id/Authentication.jsp")
+	# def test_buttonLogout(self):
+	# 	driver = login(self.driver)
+	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
+	# 	driver.find_element_by_id("btn-logout").click()
+
+	# 	wait = WebDriverWait(driver, 30)
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		
+	# 	assert "You can improve your security further after logging out by closing this opened browser" in driver.page_source
+	# 	# driver.find_element_by_id("bot1-Msg1").click()
+	# 	driver.find_element_by_id("bot2-Msg1").click()
+	# 	driver.get("https://antrian.imigrasi.go.id/Authentication.jsp")
 
 	# def test_buttonCollapseMenu(self):
 	# 	driver = login(self.driver)

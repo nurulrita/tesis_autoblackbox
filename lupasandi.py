@@ -14,39 +14,38 @@ class LupaSandiFirefox(unittest.TestCase):
 	def setUp(self):
 		self.driver = webdriver.Firefox()
 		self.driver.implicitly_wait(30)
-		self.base_url = "https://antrian.imigrasi.go.id"
 		self.verificationErrors = []
 		self.accept_next_alert = True
 
-	# def test_LupaSandi(self):
-	# 	driver = self.driver
-	# 	driver.get(self.base_url + "/Authentication.jsp")
-	# 	driver.find_element_by_link_text("Lupa KataSandi ?").click()
+	def test_LupaSandi(self):
+		driver = self.driver
+		driver.get("https://antrian.imigrasi.go.id")
+		driver.find_element_by_link_text("Lupa KataSandi ?").click()
 
-	# def test_LupaSandi_empty(self):
-	# 	driver = self.driver
-	# 	driver.get(self.base_url + "/Authentication.jsp")
-	# 	driver.find_element_by_link_text("Lupa KataSandi ?").click()
-	# 	driver.find_element_by_id("btn-search").click()
-	# 	wait = WebDriverWait(driver, 30)
-	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))		
-	# 	assert "Akun Anda Tidak Ditemukan" in driver.page_source
+	def test_LupaSandi_empty(self):
+		driver = self.driver
+		driver.get("https://antrian.imigrasi.go.id")
+		driver.find_element_by_link_text("Lupa KataSandi ?").click()
+		driver.find_element_by_id("btn-search").click()
+		wait = WebDriverWait(driver, 30)
+		element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))		
+		assert "Akun Anda Tidak Ditemukan" in driver.page_source
 
-	# def test_LupaSandi_email_tdkterdaftar(self):
-	# 	driver = self.driver
-	# 	driver.get(self.base_url + "/Authentication.jsp")
-	# 	driver.find_element_by_link_text("Lupa KataSandi ?").click()
-	# 	driver.find_element_by_id("request").send_keys("kdlsnmcj@gmail.com")
-	# 	driver.find_element_by_id("btn-search").click()
-	# 	wait = WebDriverWait(driver, 30)
-	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))		
-	# 	assert "Akun Anda Tidak Ditemukan" in driver.page_source
+	def test_LupaSandi_email_tdkterdaftar(self):
+		driver = self.driver
+		driver.get("https://antrian.imigrasi.go.id")
+		driver.find_element_by_link_text("Lupa KataSandi ?").click()
+		driver.find_element_by_id("request").send_keys("kdlsnmcj@gmail.com")
+		driver.find_element_by_id("btn-search").click()
+		wait = WebDriverWait(driver, 30)
+		element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))		
+		assert "Akun Anda Tidak Ditemukan" in driver.page_source
 
 	def test_LupaSandi_email_terdaftar(self):
 		driver = self.driver
-		driver.get(self.base_url + "/Authentication.jsp")
+		driver.get("https://antrian.imigrasi.go.id")
 		driver.find_element_by_link_text("Lupa KataSandi ?").click()
-		driver.find_element_by_id("request").send_keys("nuthanuu@gmail.com")
+		driver.find_element_by_id("request").send_keys("nuthanu71@yahoo.com")
 		driver.find_element_by_id("btn-search").click()
 		wait = WebDriverWait(driver, 30)
 		element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		

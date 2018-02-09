@@ -26,21 +26,21 @@ class Syarat_ProsedurFireFox(unittest.TestCase):
 		self.driver.set_window_size(1920, 1080)
 		self.driver.maximize_window()
 
-	# def test_syaratProsedur(self):
-	# 	driver = login(self.driver) 
-	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Terms/syarat.jsp")
+	def test_syaratProsedur(self):
+		driver = login(self.driver) 
+		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Terms/syarat.jsp")
 
-	# 	driver.find_element_by_css_selector("a[title=\"Syarat & Prosedur\"] > span.menu-item-parent").click()
-	# 	assert "Persyaratan Dan Prosedur" in driver.page_source
+		driver.find_element_by_css_selector("a[title=\"Syarat & Prosedur\"] > span.menu-item-parent").click()
+		assert "Persyaratan Dan Prosedur" in driver.page_source
 
-	# def test_syaratProsedur_Persyaratan(self):
-	# 	driver = login(self.driver) 
-	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Terms/syarat.jsp")
+	def test_syaratProsedur_Persyaratan(self):
+		driver = login(self.driver) 
+		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Terms/syarat.jsp")
 
-	# 	driver.find_element_by_css_selector("a[title=\"Syarat & Prosedur\"] > span.menu-item-parent").click()
+		driver.find_element_by_css_selector("a[title=\"Syarat & Prosedur\"] > span.menu-item-parent").click()
 
-	# 	driver.find_element_by_link_text("Persyaratan").click()
-	# 	assert "Persyaratan" in driver.page_source
+		driver.find_element_by_link_text("Persyaratan").click()
+		assert "Persyaratan" in driver.page_source
 
 	def test_syaratProsedur_Panduan(self):
 		driver = login(self.driver) 
