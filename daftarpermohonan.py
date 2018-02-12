@@ -39,19 +39,20 @@ class DaftarPermohonan(unittest.TestCase):
 
 	# 	driver.find_element_by_css_selector("#list-permohonan > tr > td:nth-child(1) > button.btn.btn-primary.btn-sm").click()
 
-	def test_daftar_permohonan_batalkan(self):
-		driver = login(self.driver)
-		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
-		driver.find_element_by_css_selector("a[title=\"Daftar Pemohonan\"]").click()
+	# def test_daftar_permohonan_batalkan(self):
+	# 	driver = login(self.driver)
+	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
+	# 	driver.find_element_by_css_selector("a[title=\"Daftar Pemohonan\"]").click()
 
-		driver.find_element_by_id("btn-hapus_null-4GKEKK").click()
-		driver.execute_script("window.alert('Pemohon Hanya diperbolehkan membatalkan Antrian ');")
-		alert = driver.switch_to_alert()
-		alert.accept()
-		driver.find_element_by_id("bot1-Msg1").click()
-		# wait = WebDriverWait(driver, 15)
-		# element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))
-		# assert "Antrian null-4GKEKK Telah Dibatalkan" in driver.page_source
+	# 	driver.find_element_by_id("btn-hapus_null-4GKEKK").click()
+	# 	driver.execute_script("window.alert('Pemohon Hanya diperbolehkan membatalkan Antrian ');")
+	# 	alert = driver.switch_to_alert()
+	# 	alert.accept()
+	# 	driver.find_element_by_id("bot1-Msg1").click() #button Yes
+	# 	# driver.find_element_by_id('bot2-Msg1').click() #button No
+	# 	wait = WebDriverWait(driver, 15)
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))
+	# 	assert "Antrian null-4GKEKK Telah Dibatalkan" in driver.page_source
 
 	def is_element_present(self, how, what):
 		try: 

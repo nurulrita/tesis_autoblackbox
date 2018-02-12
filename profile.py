@@ -28,11 +28,11 @@ class ProfileFireFox(unittest.TestCase):
 		self.verificationErrors = []
 		self.accept_next_alert = True
 
-	def test_profile(self):
-		driver = login(self.driver) 
-		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
+	# def test_profile(self):
+	# 	driver = login(self.driver) 
+	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
 
-		driver.find_element_by_css_selector("a[title=\"Profile\"]").click()
+	# 	driver.find_element_by_css_selector("a[title=\"Profile\"]").click()
 
 	# def test_profile_NoChange(self):
 	# 	driver = login(self.driver) 
@@ -43,11 +43,11 @@ class ProfileFireFox(unittest.TestCase):
 	# 	wait = WebDriverWait(driver, 30)
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		
 	# 	assert "Anda yakin ingin merubah data profil anda ?" in driver.page_source
-	# 	driver.find_element_by_id('bot2-Msg1').click()
+	# 	# driver.find_element_by_id('bot1-Msg1').click() #button No
+	# 	driver.find_element_by_id('bot2-Msg1').click() #button Yes
 	# 	wait = WebDriverWait(driver, 30)
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))		
 	# 	assert "Akun Anda Telah, Dirubah" in driver.page_source
-	# 	driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/User/Profile.jsp")
 
 	# def test_profile_UsernameChange(self):
 	# 	driver = login(self.driver) 
@@ -60,11 +60,11 @@ class ProfileFireFox(unittest.TestCase):
 	# 	wait = WebDriverWait(driver, 30)
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		
 	# 	assert "Anda yakin ingin merubah data profil anda ?" in driver.page_source
-	# 	driver.find_element_by_id('bot2-Msg1').click()
+	# 	# driver.find_element_by_id('bot1-Msg1').click() #button No
+	# 	driver.find_element_by_id('bot2-Msg1').click() #button Yes
 	# 	wait = WebDriverWait(driver, 30)
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))	
 	# 	assert "Akun Anda Telah, Dirubah" in driver.page_source
-	# 	driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/User/Profile.jsp")
 
 	# def test_profile_NIKkomChange(self):
 	# 	driver = login(self.driver)
@@ -77,11 +77,11 @@ class ProfileFireFox(unittest.TestCase):
 	# 	wait = WebDriverWait(driver, 30)
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		
 	# 	assert "Anda yakin ingin merubah data profil anda ?" in driver.page_source
-	# 	driver.find_element_by_id('bot2-Msg1').click()
+	# 	# driver.find_element_by_id('bot1-Msg1').click() #button No
+	# 	driver.find_element_by_id('bot2-Msg1').click() #button Yes
 	# 	wait = WebDriverWait(driver, 30)
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))	
 	# 	assert "NIK User Tidak Valid" in driver.page_source
-	# 	driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/User/Profile.jsp")
 
 	# def test_profile_NIKkurang16(self):
 	# 	driver = login(self.driver)
@@ -94,11 +94,11 @@ class ProfileFireFox(unittest.TestCase):
 	# 	wait = WebDriverWait(driver, 30)
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		
 	# 	assert "Anda yakin ingin merubah data profil anda ?" in driver.page_source
-	# 	driver.find_element_by_id('bot2-Msg1').click()
+	# 	# driver.find_element_by_id('bot1-Msg1').click() #button No
+	# 	driver.find_element_by_id('bot2-Msg1').click() #button Yes
 	# 	wait = WebDriverWait(driver, 30)
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))	
 	# 	assert "NIK User Tidak Valid" in driver.page_source
-	# 	driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/User/Profile.jsp")
 
 	# def test_profile_NIKlebih16(self):
 	# 	driver = login(self.driver)
@@ -111,11 +111,11 @@ class ProfileFireFox(unittest.TestCase):
 	# 	wait = WebDriverWait(driver, 30)
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		
 	# 	assert "Anda yakin ingin merubah data profil anda ?" in driver.page_source
-	# 	driver.find_element_by_id('bot2-Msg1').click()
+	# 	# driver.find_element_by_id('bot1-Msg1').click() #button No
+	# 	driver.find_element_by_id('bot2-Msg1').click() #button Yes
 	# 	wait = WebDriverWait(driver, 30)
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))	
 	# 	assert "NIK User Tidak Valid" in driver.page_source
-	# 	driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/User/Profile.jsp")
 
 	# def test_profile_TeleponKombinasi(self):
 	# 	driver = login(self.driver)
@@ -128,11 +128,45 @@ class ProfileFireFox(unittest.TestCase):
 	# 	wait = WebDriverWait(driver, 30)
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		
 	# 	assert "Anda yakin ingin merubah data profil anda ?" in driver.page_source
-	# 	driver.find_element_by_id('bot2-Msg1').click()
+	# 	# driver.find_element_by_id('bot1-Msg1').click() #button No
+	# 	driver.find_element_by_id('bot2-Msg1').click() #button Yes
 	# 	wait = WebDriverWait(driver, 30)
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))	
 	# 	assert "Nomer Telephone Tidak Valid" in driver.page_source
-	# 	driver.get ("https://antrian.imigrasi.go.id/Index.jsp#Ajax/User/Profile.jsp")
+
+	# def test_profile_AlamatChange(self):
+	# 	driver = login(self.driver)
+	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
+
+	# 	driver.find_element_by_css_selector("a[title=\"Profile\"]").click()
+	# 	driver.find_element_by_name("Alamat").clear()
+	# 	driver.find_element_by_name("Alamat").send_keys("Jl. Nangka")
+	# 	driver.find_element_by_name('button-save').click()
+	# 	wait = WebDriverWait(driver, 30)
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		
+	# 	assert "Anda yakin ingin merubah data profil anda ?" in driver.page_source
+	# 	# driver.find_element_by_id('bot1-Msg1').click() #button No
+	# 	driver.find_element_by_id('bot2-Msg1').click() #button Yes
+	# 	wait = WebDriverWait(driver, 30)
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))	
+	# 	assert "Akun Anda Telah, Dirubah" in driver.page_source
+
+	# def test_profile_EmailChange(self):
+	# 	driver = login(self.driver)
+	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
+
+	# 	driver.find_element_by_css_selector("a[title=\"Profile\"]").click()
+	# 	driver.find_element_by_name("Email").clear()
+	# 	driver.find_element_by_name("Email").send_keys("nuthanuu@gmail.com")
+	# 	driver.find_element_by_name('button-save').click()
+	# 	wait = WebDriverWait(driver, 30)
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		
+	# 	assert "Anda yakin ingin merubah data profil anda ?" in driver.page_source
+	# 	# driver.find_element_by_id('bot1-Msg1').click() #button No
+	# 	driver.find_element_by_id('bot2-Msg1').click() #button Yes
+	# 	wait = WebDriverWait(driver, 30)
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))	
+	# 	assert "Akun Anda Telah, Dirubah" in driver.page_source
 
 
 	def is_element_present(self, how, what):

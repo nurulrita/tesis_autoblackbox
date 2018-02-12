@@ -136,8 +136,6 @@ class PendaftaranFirefox(unittest.TestCase):
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))
 	# 	assert "Error in executeUpdate, NIK user tidak valid." in driver.page_source
 
-	# *************** masih raise TimeoutException(message, screen, stacktrace)*********
-
 	# def test_PendaftaranTeleponUsed(self):
 	# 	driver = pendaftaran(self.driver)
 
@@ -158,13 +156,15 @@ class PendaftaranFirefox(unittest.TestCase):
 		driver.find_element_by_name("Username").send_keys("mkng")
 		driver.find_element_by_name("Password").send_keys("zxcvbnm")
 		driver.find_element_by_name("NIK").send_keys("3275050808910002")
-		driver.find_element_by_name("Telephone").send_keys("081234567890")
-		driver.find_element_by_name("Email").send_keys("qwerty@gmail.com")
+		driver.find_element_by_name("Telephone").send_keys("0852824807788")
+		driver.find_element_by_name("Email").send_keys("nuthanuu@gmail.com")
 		driver.find_element_by_name("Alamat").send_keys("Jl. Mawar")
 		driver.find_element_by_id("register-btn_save").click()
 		wait = WebDriverWait(driver, 20)
 		element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))
-		assert "E-Mail Telah digunakan" in driver.page_source
+		wait = WebDriverWait(driver, 20)
+		print driver.page_source
+	 	assert "E-Mail Telah digunakan" in driver.page_source
 
 	# def test_PendaftaranNIKkombinasi(self):
 	# 	driver = pendaftaran(self.driver)
@@ -177,7 +177,7 @@ class PendaftaranFirefox(unittest.TestCase):
 	# 	driver.find_element_by_name("Alamat").send_keys("Jl. Mawar")
 	# 	driver.find_element_by_id("register-btn_save").click()
 	# 	wait = WebDriverWait(driver, 15)
-	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'register-loading_save')))
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))
 	# 	assert "Error in executeUpdate, NIK user tidak valid." in driver.page_source
 
 	# def test_PendaftaranTeleponKombinasi(self):
@@ -191,8 +191,8 @@ class PendaftaranFirefox(unittest.TestCase):
 	# 	driver.find_element_by_name("Alamat").send_keys("Jl. Mawar")
 	# 	driver.find_element_by_id("register-btn_save").click()
 	# 	wait = WebDriverWait(driver, 30)
-	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))
-	# 	assert "Error in executeUpdate, Telephone user tidak valid." in driver.page_source
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))
+	# 	assert "Error in executeUpdate, Nomor telepon tidak valid." in driver.page_source
 
 	# def test_UsernameUsed(self):
 	# 	driver = pendaftaran(self.driver)
@@ -205,10 +205,8 @@ class PendaftaranFirefox(unittest.TestCase):
 	# 	driver.find_element_by_name("Alamat").send_keys("Jl. Anggrek")
 	# 	driver.find_element_by_id("register-btn_save").click()
 	# 	wait = WebDriverWait(driver, 30)
-	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))
-	# 	assert "Username Telah Digunakan." in driver.page_source
-
-	#***************************************************************************************
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))
+	# 	assert "Username Telah Digunakan" in driver.page_source
 
 	# def test_PendaftaranBerhasil(self):
 	# 	driver = pendaftaran(self.driver)

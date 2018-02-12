@@ -44328,3 +44328,1219 @@ Sandbox: Unexpected EOF, op 1 flags 00 path /etc/ld.so.nohwcap
 1518190334088	Marionette	INFO	Listening on port 50769
 1518190334130	Marionette	WARN	TLS certificate errors will be ignored for this session
 [Child 13789, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518190851884	geckodriver	INFO	geckodriver 0.19.1
+1518190851896	geckodriver	INFO	Listening on 127.0.0.1:42467
+1518190852999	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.vxdmi0g1pCHv"
+1518190853865	Marionette	INFO	Enabled via --marionette
+
+(firefox:14045): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14045): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14045): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14045): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14045): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14045): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14107): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14107): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14107): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14107): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14107): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14107): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518190856503	Marionette	INFO	Listening on port 50072
+1518190856517	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 14107, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14107, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14107, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518190920004	geckodriver	INFO	geckodriver 0.19.1
+1518190920015	geckodriver	INFO	Listening on 127.0.0.1:57985
+1518190921090	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.sRa8MpdBYhAO"
+1518190921956	Marionette	INFO	Enabled via --marionette
+
+(firefox:14237): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14237): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14237): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14237): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14237): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14237): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14298): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14298): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14298): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14298): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14298): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14298): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518190924732	Marionette	INFO	Listening on port 49014
+1518190924814	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 14298, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14298, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14298, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518191013563	geckodriver	INFO	geckodriver 0.19.1
+1518191013573	geckodriver	INFO	Listening on 127.0.0.1:52827
+1518191014653	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.x9qYZsk5MFEn"
+1518191015543	Marionette	INFO	Enabled via --marionette
+
+(firefox:14451): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14451): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14451): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14451): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14451): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14451): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14513): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14513): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14513): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14513): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14513): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14513): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518191018108	Marionette	INFO	Listening on port 38995
+1518191018172	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 14513, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14513, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14513, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518191082011	geckodriver	INFO	geckodriver 0.19.1
+1518191082017	geckodriver	INFO	Listening on 127.0.0.1:60361
+1518191083101	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IQx0tIrfnX0Z"
+1518191083965	Marionette	INFO	Enabled via --marionette
+
+(firefox:14643): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14643): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14643): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14643): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14643): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14643): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14705): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14705): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14705): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14705): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14705): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14705): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518191086642	Marionette	INFO	Listening on port 52802
+1518191086720	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 14705, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14705, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14705, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518191202186	geckodriver	INFO	geckodriver 0.19.1
+1518191202199	geckodriver	INFO	Listening on 127.0.0.1:38298
+1518191203270	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.7R8CoTcbHyKD"
+1518191204183	Marionette	INFO	Enabled via --marionette
+
+(firefox:14838): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14838): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14838): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14838): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14838): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14838): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14901): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14901): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14901): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14901): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14901): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:14901): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518191206690	Marionette	INFO	Listening on port 37575
+1518191206786	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 14901, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14901, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 14901, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518191278521	geckodriver	INFO	geckodriver 0.19.1
+1518191278532	geckodriver	INFO	Listening on 127.0.0.1:49846
+1518191279613	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.XSusyPktoaU9"
+1518191280558	Marionette	INFO	Enabled via --marionette
+
+(firefox:15053): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15053): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:15053): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15053): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:15053): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15053): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15116): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15116): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15116): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15116): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15116): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15116): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518191283252	Marionette	INFO	Listening on port 41794
+1518191283330	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15116, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 15116, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 15116, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518191674102	geckodriver	INFO	geckodriver 0.19.1
+1518191674108	geckodriver	INFO	Listening on 127.0.0.1:58988
+1518191675201	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.1k2Af7oajK6G"
+1518191676124	Marionette	INFO	Enabled via --marionette
+
+(firefox:15381): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15381): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:15381): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15381): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:15381): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15381): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15444): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15444): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15444): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15444): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15444): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15444): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518191678721	Marionette	INFO	Listening on port 58804
+1518191678823	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15444, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 15444, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 15444, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518192005251	geckodriver	INFO	geckodriver 0.19.1
+1518192005258	geckodriver	INFO	Listening on 127.0.0.1:45702
+1518192006420	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.KpYHVjVjpIns"
+1518192008077	Marionette	INFO	Enabled via --marionette
+
+(firefox:15875): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15875): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:15875): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15875): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:15875): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15875): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15941): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15941): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15941): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15941): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15941): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:15941): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518192011730	Marionette	INFO	Listening on port 50918
+1518192011757	Marionette	WARN	TLS certificate errors will be ignored for this session
+1518192098564	geckodriver	INFO	geckodriver 0.19.1
+1518192098577	geckodriver	INFO	Listening on 127.0.0.1:58109
+1518192099732	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.CLcwNuT8NOit"
+1518192101302	Marionette	INFO	Enabled via --marionette
+
+(firefox:16069): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16069): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16069): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16069): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16069): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16069): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16132): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16132): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16132): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16132): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16132): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16132): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518192105026	Marionette	INFO	Listening on port 33855
+1518192105083	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 16132, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 16132, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518192142192	geckodriver	INFO	geckodriver 0.19.1
+1518192142205	geckodriver	INFO	Listening on 127.0.0.1:48525
+1518192143355	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.g0G0c8uUfNB0"
+1518192181457	geckodriver	INFO	geckodriver 0.19.1
+1518192181470	geckodriver	INFO	Listening on 127.0.0.1:59648
+1518192182627	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.p6TohXtqvCjQ"
+1518192184242	Marionette	INFO	Enabled via --marionette
+
+(firefox:16337): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16337): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16337): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16337): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16337): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16337): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16403): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16403): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16403): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16403): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16403): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16403): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518192187990	Marionette	INFO	Listening on port 34866
+1518192188061	Marionette	WARN	TLS certificate errors will be ignored for this session
+1518192253487	geckodriver	INFO	geckodriver 0.19.1
+1518192253498	geckodriver	INFO	Listening on 127.0.0.1:34061
+1518192254659	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.1Wv7Cq6pS0qU"
+1518192256274	Marionette	INFO	Enabled via --marionette
+
+(firefox:16544): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16544): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16544): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16544): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16544): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16544): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16608): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16608): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16608): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16608): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16608): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16608): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518192260329	Marionette	INFO	Listening on port 59991
+1518192260388	Marionette	WARN	TLS certificate errors will be ignored for this session
+1518225214444	geckodriver	INFO	geckodriver 0.19.1
+1518225214474	geckodriver	INFO	Listening on 127.0.0.1:58990
+1518225215612	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.VK0p5vnPK41b"
+1518225221257	Marionette	INFO	Enabled via --marionette
+
+(firefox:4764): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4764): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4764): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4764): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4764): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4764): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4828): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4828): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4828): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4828): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4828): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4828): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518225226663	Marionette	INFO	Listening on port 38032
+1518225226789	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4828, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4828, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4828, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518232828575	geckodriver	INFO	geckodriver 0.19.1
+1518232828585	geckodriver	INFO	Listening on 127.0.0.1:43746
+1518232829692	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.2sBJmyGFoe8P"
+1518232830720	Marionette	INFO	Enabled via --marionette
+
+(firefox:6438): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6438): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6438): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6438): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6438): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6438): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6500): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6500): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6500): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6500): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6500): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6500): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518232833599	Marionette	INFO	Listening on port 45261
+1518232833616	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6500, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6500, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6500, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518233206925	geckodriver	INFO	geckodriver 0.19.1
+1518233206934	geckodriver	INFO	Listening on 127.0.0.1:52818
+1518233207103	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LemEjxoaXI2C"
+1518233209219	Marionette	INFO	Enabled via --marionette
+
+(firefox:6816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6880): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6880): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6880): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6880): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6880): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6880): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518233212225	Marionette	INFO	Listening on port 42349
+1518233212239	Marionette	WARN	TLS certificate errors will be ignored for this session
+1518233556358	geckodriver	INFO	geckodriver 0.19.1
+1518233556371	geckodriver	INFO	Listening on 127.0.0.1:43868
+1518233557461	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.jlSfnCpI8QUw"
+1518233560191	Marionette	INFO	Enabled via --marionette
+
+(firefox:7144): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7144): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7144): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7144): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7144): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7144): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7211): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7211): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7211): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7211): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7211): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7211): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518233563268	Marionette	INFO	Listening on port 43886
+1518233563289	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7211, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7211, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7211, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518233629293	geckodriver	INFO	geckodriver 0.19.1
+1518233629307	geckodriver	INFO	Listening on 127.0.0.1:49626
+1518233630405	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3fMb4WBhpTsO"
+1518233631698	Marionette	INFO	Enabled via --marionette
+
+(firefox:7348): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7348): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7348): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7348): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7348): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7348): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7411): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7411): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7411): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7411): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7411): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7411): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518233634913	Marionette	INFO	Listening on port 32905
+1518233634945	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7411, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7411, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7411, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518233646229	geckodriver	INFO	geckodriver 0.19.1
+1518233646241	geckodriver	INFO	Listening on 127.0.0.1:53263
+1518233647347	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IqYjGvXd7TFR"
+1518233648416	Marionette	INFO	Enabled via --marionette
+
+(firefox:7541): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7541): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7541): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7541): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7541): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7541): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7603): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7603): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7603): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7603): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7603): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7603): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518233651594	Marionette	INFO	Listening on port 37667
+1518233651675	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7603, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7603, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7603, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518233902556	geckodriver	INFO	geckodriver 0.19.1
+1518233902562	geckodriver	INFO	Listening on 127.0.0.1:56818
+1518233903677	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.taiIo0NQpM73"
+1518233904753	Marionette	INFO	Enabled via --marionette
+
+(firefox:7789): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7789): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7789): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7789): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7789): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7789): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7853): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7853): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7853): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7853): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7853): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7853): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518233907507	Marionette	INFO	Listening on port 38787
+1518233907607	Marionette	WARN	TLS certificate errors will be ignored for this session
+1518233936404	geckodriver	INFO	geckodriver 0.19.1
+1518233936414	geckodriver	INFO	Listening on 127.0.0.1:58673
+1518233937518	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.C6wgUw7xdnkh"
+1518233938643	Marionette	INFO	Enabled via --marionette
+
+(firefox:7981): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7981): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7981): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7981): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7981): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7981): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8043): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8043): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8043): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8043): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8043): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8043): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518233941508	Marionette	INFO	Listening on port 44694
+1518233941544	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8043, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8043, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8043, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518234254913	geckodriver	INFO	geckodriver 0.19.1
+1518234254920	geckodriver	INFO	Listening on 127.0.0.1:35311
+1518234256024	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.r6kvTNXmJnOw"
+1518234257104	Marionette	INFO	Enabled via --marionette
+
+(firefox:8247): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8247): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8247): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8247): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8247): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8247): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8308): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8308): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8308): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8308): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8308): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8308): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518234259993	Marionette	INFO	Listening on port 42900
+1518234260055	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8308, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8308, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8308, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518402512434	geckodriver	INFO	geckodriver 0.19.1
+1518402512460	geckodriver	INFO	Listening on 127.0.0.1:54464
+1518402513662	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Xz4ulWLKSnOz"
+1518402517854	Marionette	INFO	Enabled via --marionette
+
+(firefox:3536): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3536): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3536): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3536): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3536): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3536): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3599): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3599): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3599): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3599): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3599): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3599): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518402523716	Marionette	INFO	Listening on port 54665
+1518402523823	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3599, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 3599, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 3599, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518402712036	geckodriver	INFO	geckodriver 0.19.1
+1518402712049	geckodriver	INFO	Listening on 127.0.0.1:43926
+1518402713196	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LsU8N1lknNKZ"
+1518402714736	Marionette	INFO	Enabled via --marionette
+
+(firefox:3754): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3754): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3754): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3754): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3754): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3754): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3817): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3817): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3817): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3817): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3817): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3817): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518402718336	Marionette	INFO	Listening on port 33583
+1518402718426	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3817, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 3817, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 3817, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518402747679	geckodriver	INFO	geckodriver 0.19.1
+1518402747691	geckodriver	INFO	Listening on 127.0.0.1:35917
+1518402748843	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.edcCyMb18oei"
+1518402750356	Marionette	INFO	Enabled via --marionette
+
+(firefox:3950): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3950): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3950): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3950): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3950): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3950): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4015): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4015): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4015): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4015): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4015): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4015): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518402754020	Marionette	INFO	Listening on port 50860
+1518402754103	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4015, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4015, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4015, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518402841340	geckodriver	INFO	geckodriver 0.19.1
+1518402841351	geckodriver	INFO	Listening on 127.0.0.1:56155
+1518402842506	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.i7mofCTkBDwD"
+1518402844037	Marionette	INFO	Enabled via --marionette
+
+(firefox:4199): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4199): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4199): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4199): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4199): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4199): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4264): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4264): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4264): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4264): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4264): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4264): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518402847695	Marionette	INFO	Listening on port 35190
+1518402847744	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js, line 3: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://antrian.imigrasi.go.id/Scripts/index.js, line 9: NS_ERROR_NOT_AVAILABLE: 
+JavaScript error: https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js, line 3: TypeError: a.ownerDocument.defaultView is null
+[Child 4264, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4264, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518402880648	geckodriver	INFO	geckodriver 0.19.1
+1518402880661	geckodriver	INFO	Listening on 127.0.0.1:38263
+1518402881807	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ogdjTjZY8H3v"
+1518402883354	Marionette	INFO	Enabled via --marionette
+
+(firefox:4393): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4393): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4393): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4393): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4393): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4393): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4456): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4456): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4456): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4456): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4456): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4456): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518402886948	Marionette	INFO	Listening on port 59904
+1518402887054	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4456, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4456, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4456, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518403192806	geckodriver	INFO	geckodriver 0.19.1
+1518403192818	geckodriver	INFO	Listening on 127.0.0.1:34211
+1518403193983	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aAUPs0zFrt5w"
+1518403195527	Marionette	INFO	Enabled via --marionette
+
+(firefox:4750): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4750): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4750): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4750): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4750): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4750): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4813): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4813): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4813): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4813): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4813): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4813): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518403199158	Marionette	INFO	Listening on port 56210
+1518403199211	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4813, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4813, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 4813, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518403228192	geckodriver	INFO	geckodriver 0.19.1
+1518403228204	geckodriver	INFO	Listening on 127.0.0.1:59309
+1518403229355	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.dZYjdPE2bML1"
+1518403230888	Marionette	INFO	Enabled via --marionette
+
+(firefox:4938): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4938): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4938): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4938): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4938): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4938): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5002): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5002): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5002): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5002): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5002): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5002): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518403234441	Marionette	INFO	Listening on port 37438
+1518403235509	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5002, Chrome_ChildThread] WARNING: pipe error (42): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5002, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5002, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5002, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518403264317	geckodriver	INFO	geckodriver 0.19.1
+1518403264328	geckodriver	INFO	Listening on 127.0.0.1:43607
+1518403265482	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aI8S0oZpKa4y"
+1518403267035	Marionette	INFO	Enabled via --marionette
+
+(firefox:5125): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5125): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5125): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5125): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5125): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5125): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5188): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5188): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5188): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5188): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5188): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5188): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518403270550	Marionette	INFO	Listening on port 55347
+1518403270613	Marionette	WARN	TLS certificate errors will be ignored for this session
+1518403309403	geckodriver	INFO	geckodriver 0.19.1
+1518403309413	geckodriver	INFO	Listening on 127.0.0.1:37458
+1518403310566	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.BLyaRgXyv1TD"
+1518403312080	Marionette	INFO	Enabled via --marionette
+
+(firefox:5314): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5314): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5314): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5314): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5314): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5314): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5378): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5378): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5378): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5378): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5378): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5378): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518403315882	Marionette	INFO	Listening on port 51468
+1518403315947	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5378, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 5378, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5378, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0016,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7A0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0007,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0006,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+1518403380058	geckodriver	INFO	geckodriver 0.19.1
+1518403380068	geckodriver	INFO	Listening on 127.0.0.1:54123
+1518403381222	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.AkSkn9nN9OgZ"
+1518403382781	Marionette	INFO	Enabled via --marionette
+
+(firefox:5527): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5527): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5527): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5527): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5527): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5527): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5591): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5591): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5591): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5591): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5591): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5591): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518403386360	Marionette	INFO	Listening on port 36367
+1518403386450	Marionette	WARN	TLS certificate errors will be ignored for this session
+1518403412584	geckodriver	INFO	geckodriver 0.19.1
+1518403412597	geckodriver	INFO	Listening on 127.0.0.1:43166
+1518403413744	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.7MunIvh4inh5"
+1518403415275	Marionette	INFO	Enabled via --marionette
+
+(firefox:5715): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5715): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5715): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5715): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5715): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5715): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5779): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5779): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5779): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5779): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5779): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:5779): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518403418908	Marionette	INFO	Listening on port 42981
+1518403419959	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5779, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5779, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5779, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518408264339	geckodriver	INFO	geckodriver 0.19.1
+1518408264352	geckodriver	INFO	Listening on 127.0.0.1:58584
+1518408265448	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.E3keLQ3gtpjB"
+1518408266536	Marionette	INFO	Enabled via --marionette
+
+(firefox:6525): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6525): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6525): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6525): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6525): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6525): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6589): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6589): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6589): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6589): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6589): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6589): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518408269296	Marionette	INFO	Listening on port 52526
+1518408269379	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js, line 3: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://antrian.imigrasi.go.id/Scripts/index.js, line 9: NS_ERROR_NOT_AVAILABLE: 
+JavaScript error: https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js, line 3: TypeError: a.ownerDocument.defaultView is null
+[Child 6589, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6589, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518408289285	geckodriver	INFO	geckodriver 0.19.1
+1518408289295	geckodriver	INFO	Listening on 127.0.0.1:52984
+1518408290395	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xCfSz94POa6a"
+1518408291431	Marionette	INFO	Enabled via --marionette
+
+(firefox:6713): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6713): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6713): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6713): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6713): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6713): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6777): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6777): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6777): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6777): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6777): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6777): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518408294216	Marionette	INFO	Listening on port 54846
+1518408294318	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js, line 3: TypeError: a.ownerDocument.defaultView is null
+[Child 6777, Chrome_ChildThread] WARNING: pipe error (42): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6777, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6777, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6777, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518408319771	geckodriver	INFO	geckodriver 0.19.1
+1518408319778	geckodriver	INFO	Listening on 127.0.0.1:41169
+1518408320887	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.MkcT9Or88jMI"
+1518408321990	Marionette	INFO	Enabled via --marionette
+
+(firefox:6901): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6901): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6901): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6901): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6901): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6901): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6964): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6964): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6964): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6964): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6964): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6964): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1518408324884	Marionette	INFO	Listening on port 34008
+1518408324920	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6964, Chrome_ChildThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6964, Chrome_ChildThread] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6964, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-D9ySWY/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

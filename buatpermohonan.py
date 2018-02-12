@@ -128,7 +128,7 @@ class BuatPermohonan(unittest.TestCase):
 	# 	driver.find_element_by_id("next-btn").click()
 
 	# 	wait = WebDriverWait(driver, 15)
-	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'divSmallBoxes')))
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))
 	# 	assert "NIK Wajib 16 Digit" in driver.page_source
 
 	# def test_buat_permohonan_formRegisWizardNIKLebih16(self):
@@ -153,7 +153,7 @@ class BuatPermohonan(unittest.TestCase):
 	# 	driver.find_element_by_id("next-btn").click()
 
 	# 	wait = WebDriverWait(driver, 15)
-	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))
 	# 	assert "NIK Wajib 16 Digit" in driver.page_source
 
 	# *********** Kombinasi tidak bisa, kolom nik tidak bisa dimasukkan huruf ************
@@ -179,7 +179,7 @@ class BuatPermohonan(unittest.TestCase):
 	# 	driver.find_element_by_id("next-btn").click()
 
 	# 	wait = WebDriverWait(driver, 15)
-	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))
+	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))
 	# 	assert "NIK Tidak Valid" in driver.page_source
 	# **************************************************************************************
 
@@ -208,7 +208,7 @@ class BuatPermohonan(unittest.TestCase):
 	# 	driver.find_element_by_id("next-btn").click()
 	# 	driver.find_element_by_id("next-btn").click()
 		# wait = WebDriverWait(driver, 15)
-		# element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))
+		# element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))
 		# assert "Permohonan Berhasil Dikirim, Cek Daftar Permohonan" in driver.page_source
 
 	def is_element_present(self, how, what):

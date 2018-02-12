@@ -42,8 +42,8 @@ class ButtonFireFox(unittest.TestCase):
 	# 	wait = WebDriverWait(driver, 30)
 	# 	element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		
 	# 	assert "You can improve your security further after logging out by closing this opened browser" in driver.page_source
-	# 	# driver.find_element_by_id("bot1-Msg1").click()
-	# 	driver.find_element_by_id("bot2-Msg1").click()
+	# 	# driver.find_element_by_id("bot1-Msg1").click() #button No
+	# 	driver.find_element_by_id("bot2-Msg1").click() #button Yes
 	# 	driver.get("https://antrian.imigrasi.go.id/Authentication.jsp")
 
 	# def test_buttonCollapseMenu(self):
