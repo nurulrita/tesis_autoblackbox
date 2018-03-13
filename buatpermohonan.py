@@ -184,32 +184,32 @@ class BuatPermohonan(unittest.TestCase):
 	# **************************************************************************************
 
 
-	# def test_buat_permohonan_formIsiSukses(self):
-	# 	driver = login(self.driver)
-	# 	EC.element_to_be_clickable((By.CLASS_NAME, "btn-primary"))
+	def test_buat_permohonan_formIsiSukses(self):
+		driver = login(self.driver)
+		EC.element_to_be_clickable((By.CLASS_NAME, "btn-primary"))
 
-	# 	driver.find_element_by_css_selector('#list-kanim > tr:nth-child(1) > td:nth-child(3) > button').click()
-	# 	driver.find_element_by_xpath("//form[@id='daftar_jumlah_antrian-form']/fieldset/section/label[2]/i").click()
-	# 	time.sleep(2)
-	# 	driver.find_element_by_css_selector("#availableDate").click()
-	# 	day_from = driver.find_element_by_xpath("//a[contains(text(),'14')]").click()
-	# 	time.sleep(5)
+		driver.find_element_by_css_selector('#list-kanim > tr:nth-child(1) > td:nth-child(3) > button').click()
+		driver.find_element_by_xpath("//form[@id='daftar_jumlah_antrian-form']/fieldset/section/label[2]/i").click()
+		time.sleep(2)
+		driver.find_element_by_css_selector("#availableDate").click()
+		day_from = driver.find_element_by_xpath("//a[contains(text(),'14')]").click()
+		time.sleep(5)
 		
-	# 	driver.find_elements_by_css_selector('#jamkerja > label:nth-child(1)')[0].click()
-	# 	select = Select(driver.find_element_by_id('jumlah_pemohon'))
-	# 	select.select_by_value('1')
-	# 	driver.find_element_by_id("btn-lanjut").click()
+		driver.find_elements_by_css_selector('#jamkerja > label:nth-child(1)')[0].click()
+		select = Select(driver.find_element_by_id('jumlah_pemohon'))
+		select.select_by_value('1')
+		driver.find_element_by_id("btn-lanjut").click()
 
 
-	# 	driver.find_element_by_id("NAMA_PENGANTRI_1").send_keys("Resa")
-	# 	driver.find_element_by_id("NIK_PENGANTRI_1").send_keys("3276060912900001")
-	# 	select = Select(driver.find_element_by_id('KET_PENGANTRI_1'))
-	# 	select.select_by_value('pribadi')
-	# 	driver.find_element_by_id("next-btn").click()
-	# 	driver.find_element_by_id("next-btn").click()
-		# wait = WebDriverWait(driver, 15)
-		# element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))
-		# assert "Permohonan Berhasil Dikirim, Cek Daftar Permohonan" in driver.page_source
+		driver.find_element_by_id("NAMA_PENGANTRI_1").send_keys("Resa")
+		driver.find_element_by_id("NIK_PENGANTRI_1").send_keys("3276061012910001")
+		select = Select(driver.find_element_by_id('KET_PENGANTRI_1'))
+		select.select_by_value('pribadi')
+		driver.find_element_by_id("next-btn").click()
+		driver.find_element_by_id("next-btn").click()
+		wait = WebDriverWait(driver, 15)
+		element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))
+		assert "Permohonan Berhasil Dikirim, Cek Daftar Permohonan" in driver.page_source
 
 	def is_element_present(self, how, what):
 		try: 

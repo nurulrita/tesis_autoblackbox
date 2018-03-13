@@ -6,7 +6,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 from selenium.webdriver.chrome.options import Options
 
-import os, re, unittest, time 
+import os, re, unittest, time
 
 class ResetPasswordFirefox(unittest.TestCase):
 	def setUp(self):
@@ -21,13 +21,13 @@ class ResetPasswordFirefox(unittest.TestCase):
 		driver.find_element_by_id("btn-reset").click()
 		assert "Masukkan Password Baru Anda" and "Konfirmasi Password Anda" in driver.page_source
 
-	# def reset_password_KonfirmPassEmpty(self):
-	# 	driver = self.driver
-	# 	driver.get("https://antrian.imigrasi.go.id/Layanan/Resetpass.jsp?1000667543")
-	# 	driver.find_element_by_name("inpPassword").send_keys("mtomu")
-	# 	driver.find_element_by_name("cnfPassword").send_keys("")
-	# 	driver.find_element_by_id("btn-reset").click()
-	# 	assert "Konfirmasi Password Anda" in driver.page_source
+	def reset_password_KonfirmPassEmpty(self):
+		driver = self.driver
+		driver.get("https://antrian.imigrasi.go.id/Layanan/Resetpass.jsp?1000667543")
+		driver.find_element_by_name("inpPassword").send_keys("mtomu")
+		driver.find_element_by_name("cnfPassword").send_keys("")
+		driver.find_element_by_id("btn-reset").click()
+		assert "Konfirmasi Password Anda" in driver.page_source
 	
 	# def reset_password_KonfirmPassTdkSama(self):
 	# 	driver = self.driver
@@ -47,7 +47,6 @@ class ResetPasswordFirefox(unittest.TestCase):
 	# 	alert = driver.switch_to_alert()
 	# 	alert.accept()
 	# 	driver.find_element_by_id('bot2-Msg1').click()
-	# 	driver.get("https://antrian.imigrasi.go.id/Layanan/")
 
 	def is_element_present(self, how, what):
 		try: 
