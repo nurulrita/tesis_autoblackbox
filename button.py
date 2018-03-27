@@ -29,10 +29,10 @@ class ButtonFireFox(unittest.TestCase):
 		self.driver.set_window_size(1920, 1080)
 		self.driver.maximize_window()
 
-	# def test_buttonFullscreen(self):
-	# 	driver = login(self.driver)
-	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
-	# 	driver.find_element_by_css_selector("#fullscreen > span > a > i").click()
+	def test_buttonFullscreen(self):
+		driver = login(self.driver)
+		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
+		driver.find_element_by_css_selector("#fullscreen > span > a > i").click()
 
 	def test_buttonLogout(self):
 		driver = login(self.driver)
@@ -46,11 +46,11 @@ class ButtonFireFox(unittest.TestCase):
 		# driver.find_element_by_id("bot2-Msg1").click() #button Yes
 		# driver.get("https://antrian.imigrasi.go.id/Authentication.jsp")
 
-	# def test_buttonCollapseMenu(self):
-	# 	driver = login(self.driver)
-	# 	driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
+	def test_buttonCollapseMenu(self):
+		driver = login(self.driver)
+		driver.get("https://antrian.imigrasi.go.id/Index.jsp#Ajax/Home/Index.jsp")
 
-	# 	driver.find_element_by_css_selector("i.fa.fa-reorder").click()
+		driver.find_element_by_css_selector("i.fa.fa-reorder").click()
 
 	def is_element_present(self, how, what):
 		try:

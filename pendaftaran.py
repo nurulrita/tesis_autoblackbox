@@ -94,7 +94,7 @@ class PendaftaranFirefox(unittest.TestCase):
 		driver.find_element_by_id("register-btn_save").click()
 		assert "(*) Wajib di isi " in driver.page_source
 
-	def test_PendaftaranPassKurang4(self):
+	def test_PendaftaranPassKurang6(self):
 		driver = pendaftaran(self.driver)
 
 		driver.find_element_by_name("Username").send_keys("abcd")
@@ -198,7 +198,7 @@ class PendaftaranFirefox(unittest.TestCase):
 
 		driver.find_element_by_name("Username").send_keys("nrita")
 		driver.find_element_by_name("Password").send_keys("zxcvbnm")
-		driver.find_element_by_name("NIK").send_keys("1234567890123456")
+		driver.find_element_by_name("NIK").send_keys("3275050808910002")
 		driver.find_element_by_name("Telephone").send_keys("082348909111")
 		driver.find_element_by_name("Email").send_keys("lkmkl@yahoo.com")
 		driver.find_element_by_name("Alamat").send_keys("Jl. Anggrek")
@@ -207,17 +207,17 @@ class PendaftaranFirefox(unittest.TestCase):
 		element = wait.until(EC.element_to_be_clickable((By.ID, 'smallbox1')))
 		assert "Username Telah Digunakan" in driver.page_source
 
-	def test_PendaftaranBerhasil(self):
-		driver = pendaftaran(self.driver)
+	# def test_PendaftaranBerhasil(self):
+	# 	driver = pendaftaran(self.driver)
 
-		driver.find_element_by_name("Username").send_keys("wss!")
-		driver.find_element_by_name("Password").send_keys("*******")
-		driver.find_element_by_name("NIK").send_keys("1234567890123456")
-		driver.find_element_by_name("Telephone").send_keys("08111111111")
-		driver.find_element_by_name("Email").send_keys("ms0t5x@yahoo.com")
-		driver.find_element_by_name("Alamat").send_keys("Jl. Jeruk")
-		driver.find_element_by_id("register-btn_save").click()
-		driver.get("https://antrian.imigrasi.go.id/")
+	# 	driver.find_element_by_name("Username").send_keys("wss!")
+	# 	driver.find_element_by_name("Password").send_keys("asdfghijkl")
+	# 	driver.find_element_by_name("NIK").send_keys("3276064808870001")
+	# 	driver.find_element_by_name("Telephone").send_keys("082345671011")
+	# 	driver.find_element_by_name("Email").send_keys("ms0t5x@yahoo.com")
+	# 	driver.find_element_by_name("Alamat").send_keys("Jl. Jeruk")
+	# 	driver.find_element_by_id("register-btn_save").click()
+	# 	driver.get("https://antrian.imigrasi.go.id/")
 
 	def is_element_present(self, how, what):
 		try: 
