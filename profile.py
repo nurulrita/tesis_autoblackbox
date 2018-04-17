@@ -192,7 +192,7 @@ class ProfileFireFox(unittest.TestCase):
 
 		driver.find_element_by_css_selector("a[title=\"Profile\"]").click()
 		driver.find_element_by_name("Email").clear()
-		driver.find_element_by_name("Email").send_keys("nuthanu71@yahoo.com")
+		driver.find_element_by_name("Email").send_keys("sksciskwgyr@yahoo.com")
 		driver.find_element_by_name('button-save').click()
 		wait = WebDriverWait(driver, 30)
 		element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		

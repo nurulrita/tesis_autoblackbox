@@ -157,7 +157,7 @@ class PendaftaranFirefox(unittest.TestCase):
 		driver.find_element_by_name("Password").send_keys("zxcvbnm")
 		driver.find_element_by_name("NIK").send_keys("3275050808910002")
 		driver.find_element_by_name("Telephone").send_keys("0852824807788")
-		driver.find_element_by_name("Email").send_keys("nuthanuu@gmail.com")
+		driver.find_element_by_name("Email").send_keys("jdmcsu@gmail.com")
 		driver.find_element_by_name("Alamat").send_keys("Jl. Mawar")
 		driver.find_element_by_id("register-btn_save").click()
 		wait = WebDriverWait(driver, 20)
