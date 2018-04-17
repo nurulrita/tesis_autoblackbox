@@ -45,7 +45,7 @@ class LupaSandiFirefox(unittest.TestCase):
 		driver = self.driver
 		driver.get("https://antrian.imigrasi.go.id")
 		driver.find_element_by_link_text("Lupa KataSandi ?").click()
-		driver.find_element_by_id("request").send_keys("nuthanu71@yahoo.com")
+		driver.find_element_by_id("request").send_keys("jdmcsusfe@yahoo.com")
 		driver.find_element_by_id("btn-search").click()
 		wait = WebDriverWait(driver, 30)
 		element = wait.until(EC.element_to_be_clickable((By.ID, 'Msg1')))		
