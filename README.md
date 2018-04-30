@@ -1,7 +1,7 @@
 # Automated Black Box Testing Menggunakan Selenium Python Terhadap Website "Permohonan Paspor Online" Berbasis Web
 
 
-## Intro
+## Instalasi
 
 1. Download Selenium Python
 Masukkan command <strong> pip install selenium </strong> pada terminal
