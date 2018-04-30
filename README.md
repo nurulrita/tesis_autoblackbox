@@ -1,5 +1,6 @@
 # Automated Black Box Testing Menggunakan Selenium Python Terhadap Website "Permohonan Paspor Online" Berbasis Web
 
+
 ## Intro
 
 1. Download Selenium Python
@@ -10,6 +11,7 @@ Pada pengujian ini menggunakan browser firefox dan dapat mendownloadnya melalui 
 
 3. Letakkan geckodriver tadi ke dalam folder pengujian
 4. Tambahkan path pengujian ke dalam .bashrc dengan mengetikkan command <strong> gedit ~/.bashrc </strong> pada terminal 
+
 
 ## Mengeksekusi Pengujian
 
