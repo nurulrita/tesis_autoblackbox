@@ -45,7 +45,7 @@ PAM==0.4.2
 passlib==1.6.2
 pbr==0.10.8
 pexpect==3.1
-Pillow==2.7.0
+Pillow==6.2.0
 piston-mini-client==0.7.5
 protobuf==2.5.0
 psutil==2.2.0
