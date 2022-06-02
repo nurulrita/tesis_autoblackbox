@@ -19,7 +19,7 @@ gdata==2.0.18
 gevent==1.0.2
 greenlet==0.4.7
 gyp==0.1
-html5lib==0.999
+html5lib==0.99999999
 httplib2==0.8
 jcconv==0.2.3
 Jinja2>=2.10.1
