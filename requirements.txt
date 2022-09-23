@@ -47,7 +47,7 @@ pbr==0.10.8
 pexpect==3.1
 Pillow>=6.2.0
 piston-mini-client==0.7.5
-protobuf==2.5.0
+protobuf==3.18.3
 psutil>=5.6.6
 psycogreen==1.0
 psycopg2==2.5.4
